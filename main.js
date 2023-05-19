@@ -1,6 +1,8 @@
-let arr = [ 1, 2, 15 ];
+// let arr = ["i","am","learning","Js"]
+// let arr2 =  arr.slice(1,3)
+// console.log(arr2);
 
-arr.sort(function(a, b) { return a - b; });
+let arr = [11,22,33,44,55]
+let arr2 = [10,...arr   ]
 
-console.log(arr)
-  
+console.log(arr2);
